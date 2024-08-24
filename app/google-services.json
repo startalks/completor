@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "871477624423",
+    "project_id": "startalks-completor",
+    "storage_bucket": "startalks-completor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871477624423:android:78dd767238093897721ec2",
+        "android_client_info": {
+          "package_name": "startalks.completor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATiSPGyCP1jRvmbDTwErB3rRV4o930WzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

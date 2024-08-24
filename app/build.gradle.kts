@@ -17,13 +17,13 @@ apply {
 
 android {
     namespace = "startalks.completor"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "startalks.completor"
         minSdk = 24
-        targetSdk = 33
-        versionCode = 3
+        targetSdk = 34
+        versionCode = 6
         versionName = "1.0"
     }
     buildFeatures {
@@ -99,4 +99,7 @@ dependencies {
 
     // Unit tests
     testImplementation(libraries.junit)
+
+    implementation(platform("com.google.firebase:firebase-bom:33.2.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }
